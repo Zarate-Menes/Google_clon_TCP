@@ -1,0 +1,50 @@
+body{
+    /* magin- es un margen de elementos */
+    margin: 0;
+    /* padding- "margen" hacia dentro  */
+    padding: 0;
+    /* Fuentes */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* ****************************************************************** */
+/* NAVEGAACION */
+
+header{
+    /* width:ancho, height- alto */
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    /* Para justificar a la derecha */
+    /* Nos habilita usar flex-end, flex-start */
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto ;
+    /* Eliminar puntitos */
+    list-style: none;
+    display: flex;
+    /* Justificar al centro  */
+    justify-content: center;
+    /* Centrado verticalmente */
+    align-items: center;
+}
+
+a{
+    /*Eliminar lineas debajo del texto */
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    /* Cambiar el color del texto de la lista */
+    color: black;
+    /* Se cambian los margenes entre palabras */
+    margin-right: 20px;
+}
